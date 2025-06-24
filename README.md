@@ -100,5 +100,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/sharefeelings 
+Your Name - atulanand310@gmail.com
+Project Link: https://github.com/atulanand69/sharefeelings 
