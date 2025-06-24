@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - ShareFeelings</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ShareFeelings</div>
+        <div class="nav-links">
+            <a href="dashboard.html" class="active">Dashboard</a>
+            <a href="messages.html">Messages</a>
+            <a href="#" id="logoutBtn">Logout</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="dashboard-section">
+            <div class="dashboard-container">
+                <h2>Share Your Feelings</h2>
+                
+                <div class="feeling-filters">
+                    <h3>How are you feeling?</h3>
+                    <div class="feeling-buttons">
+                        <button class="feeling-btn" data-feeling="angry">😠 Angry</button>
+                        <button class="feeling-btn" data-feeling="anxious">😰 Anxious</button>
+                        <button class="feeling-btn" data-feeling="broken">💔 Broken</button>
+                        <button class="feeling-btn" data-feeling="bored">😑 Bored</button>
+                        <button class="feeling-btn" data-feeling="confused">😕 Confused</button>
+                        <button class="feeling-btn" data-feeling="calm">😌 Calm</button>
+                    </div>
+                </div>
+
+                <div class="message-options">
+                    <div class="option-card">
+                        <h3>Send to Admin</h3>
+                        <form id="adminMessageForm" class="message-form">
+                            <textarea placeholder="Type your message here..." required></textarea>
+                            <button type="submit" class="btn primary">Send to Admin</button>
+                        </form>
+                        <a href="https://wa.me/1234567890" class="whatsapp-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Chat with Admin on WhatsApp
+                        </a>
+                    </div>
+
+                    <div class="option-card">
+                        <h3>Send to User</h3>
+                        <form id="userMessageForm" class="message-form">
+                            <input type="text" placeholder="Enter username" required>
+                            <textarea placeholder="Type your message here..." required></textarea>
+                            <button type="submit" class="btn primary">Send to User</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>ShareFeelings</h4>
+                <p>Your safe space for emotional expression</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="messages.html">Messages</a>
+                <a href="#" id="footerLogoutBtn">Logout</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: support@sharefeelings.com</p>
+                <p>WhatsApp: +1234567890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ShareFeelings. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html> 

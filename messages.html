@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages - ShareFeelings</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ShareFeelings</div>
+        <div class="nav-links">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="messages.html" class="active">Messages</a>
+            <a href="#" id="logoutBtn">Logout</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="dashboard-section">
+            <div class="dashboard-container">
+                <h2>Your Messages</h2>
+                
+                <div class="message-filters">
+                    <h3>Filter Messages</h3>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All Messages</button>
+                        <button class="filter-btn" data-filter="angry">😠 Angry</button>
+                        <button class="filter-btn" data-filter="anxious">😰 Anxious</button>
+                        <button class="filter-btn" data-filter="broken">💔 Broken</button>
+                        <button class="filter-btn" data-filter="bored">😑 Bored</button>
+                        <button class="filter-btn" data-filter="confused">😕 Confused</button>
+                        <button class="filter-btn" data-filter="calm">😌 Calm</button>
+                    </div>
+                </div>
+
+                <div class="messages-container">
+                    <div class="messages-tabs">
+                        <button class="tab-btn active" data-tab="received">Received Messages</button>
+                        <button class="tab-btn" data-tab="sent">Sent Messages</button>
+                    </div>
+                    <div id="messagesList" class="messages-list">
+                        <!-- Messages will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>ShareFeelings</h4>
+                <p>Your safe space for emotional expression</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="messages.html">Messages</a>
+                <a href="#" id="footerLogoutBtn">Logout</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: support@sharefeelings.com</p>
+                <p>WhatsApp: +1234567890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ShareFeelings. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/messages.js"></script>
+</body>
+</html> 

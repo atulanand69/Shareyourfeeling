@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login - ShareFeelings</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ShareFeelings</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="admin-login.html" class="active">Admin Login</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="auth-section">
+            <div class="auth-container">
+                <h2>Admin Login</h2>
+                <form id="adminLoginForm" class="auth-form">
+                    <div class="form-group">
+                        <label for="adminUsername">Username</label>
+                        <input type="text" id="adminUsername" name="adminUsername" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="adminPassword">Password</label>
+                        <input type="password" id="adminPassword" name="adminPassword" required>
+                    </div>
+                    <button type="submit" class="btn primary">Login as Admin</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>ShareFeelings</h4>
+                <p>Your safe space for emotional expression</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="admin-login.html">Admin Login</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ShareFeelings. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html> 

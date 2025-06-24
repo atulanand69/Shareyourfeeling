@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ShareFeelings</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ShareFeelings</div>
+        <div class="nav-links">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="messages.html">Messages</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="#" id="logoutBtn">Logout</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="contact-section">
+            <div class="contact-container">
+                <h2>Contact Us</h2>
+                <p class="contact-description">We're here to help! Choose your preferred way to reach out.</p>
+                
+                <div class="contact-options">
+                    <div class="contact-card">
+                        <i class="fab fa-whatsapp"></i>
+                        <h3>WhatsApp</h3>
+                        <p>Chat with us directly on WhatsApp</p>
+                        <div class="whatsapp-form">
+                            <input type="tel" id="phoneNumber" placeholder="Enter phone number" pattern="[0-9]{10}">
+                            <textarea id="messageText" placeholder="Type your message here..."></textarea>
+                            <button id="sendWhatsApp" class="whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Send on WhatsApp
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>Send us an email at support@sharefeelings.com</p>
+                        <a href="mailto:support@sharefeelings.com" class="email-btn">
+                            <i class="fas fa-envelope"></i> Send Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>ShareFeelings</h4>
+                <p>Your safe space for emotional expression</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="messages.html">Messages</a>
+                <a href="contact.html">Contact</a>
+                <a href="#" id="footerLogoutBtn">Logout</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: support@sharefeelings.com</p>
+                <p>WhatsApp: +1234567890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ShareFeelings. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="admin.js">
+        
+    </script>
+</body>
+</html> 
